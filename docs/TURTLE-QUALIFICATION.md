@@ -6,6 +6,8 @@ This checklist covers the graphical part of Python Explorer that cannot be fully
 
 Automated CI can compile the Turtle source, but it cannot prove that a classroom machine can open, display and close a Tk window correctly.
 
+For a quick graphical pre-check, run `python tools/turtle_smoke.py`. A human must still visually confirm the window and complete Q1–Q6. Record the result in [TURTLE-TEST-RESULT.md](TURTLE-TEST-RESULT.md).
+
 ## Test environments
 
 Record each real environment tested.
