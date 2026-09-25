@@ -41,7 +41,7 @@ The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completenes
 - [x] Accessibility review
 - [x] Offline bundle
 - [x] Student progress checklist
-- [x] GitHub Pages course site
+- [ ] GitHub Pages course site — implementation complete; repository Pages enablement required
 - [ ] Hands-on Turtle/Tk classroom qualification
 
 ## M3 — Python Game Maker
