@@ -26,6 +26,17 @@ En økt på 30–60 minutter kan se slik ut:
 
 Det er ikke nødvendig å fullføre alt hver gang.
 
+## Ekstra støtte
+
+- [Lærersjekkliste](CHECKLIST.md)
+- [Lærernotater og løsningsforslag](solutions/README.md)
+- [Sluttprosjektets samtalerubrikk](PROJECT-RUBRIC.md)
+- [Progresjonskart](../docs/PROGRESSION.md)
+- [Terminologi og språkføring](../docs/VOCABULARY.md)
+- [Installasjon](../docs/INSTALL.md)
+
+Elevens ekstraoppgaver ligger i [øvelsesindeksen](../exercises/no/README.md).
+
 ## Om feil
 
 Ikke rett alle feil med én gang. Hjelp barnet med å lese feilmeldingen og finne omtrent hvor problemet er.
