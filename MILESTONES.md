@@ -37,7 +37,7 @@ The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completenes
 ## M2 — Classroom quality
 
 - [ ] Printable lesson sheets
-- [ ] Teacher pacing plans for 30, 45, and 60 minute sessions
+- [x] Teacher pacing plans for 30, 45, and 60 minute sessions
 - [ ] Accessibility review
 - [ ] Offline bundle
 - [x] Student progress checklist
