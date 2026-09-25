@@ -1,5 +1,10 @@
 # EduPython Kids
 
+[![CI](https://github.com/Ploos-AS/EduPython-Kids/actions/workflows/ci.yml/badge.svg)](https://github.com/Ploos-AS/EduPython-Kids/actions/workflows/ci.yml)
+[![Pages](https://github.com/Ploos-AS/EduPython-Kids/actions/workflows/pages.yml/badge.svg)](https://github.com/Ploos-AS/EduPython-Kids/actions/workflows/pages.yml)
+[![Course material: CC BY 4.0](https://img.shields.io/badge/course-CC%20BY%204.0-blue.svg)](LICENSE.md)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE.md)
+
 **Learn programming by making things.**
 
 EduPython Kids is a beginner-friendly Python course for children around 9–12 years old, with 10 years as the primary target age.
@@ -9,7 +14,7 @@ The course starts with immediate, playful results and introduces programming con
 ## Teaching principles
 
 - zero programming prerequisites
-- Norwegian-first, with English material planned
+- Norwegian-first, with English material in progress
 - short lessons with visible results
 - learn by changing and experimenting with working programs
 - debugging is a normal and useful part of programming
@@ -34,7 +39,7 @@ The guiding principle is:
 
 ## Course 1 — Python Explorer
 
-Python Explorer currently contains 16 Norwegian lessons:
+Python Explorer currently contains 16 complete Norwegian lessons:
 
 1. Hello, Python! — `print()`
 2. My program remembers — variables
@@ -55,6 +60,8 @@ Python Explorer currently contains 16 Norwegian lessons:
 
 Start with the [Norwegian course index](course/no/README.md). Extra practice is indexed in [Norwegian exercises](exercises/no/README.md).
 
+The Norwegian edition is currently the canonical complete teaching edition. An English 16-lesson structure exists, but the full English teaching material is still in progress and should not yet be treated as 1:1 equivalent.
+
 Future courses are planned around game creation, physical computing, debugging/data exploration, and independent projects.
 
 ## Repository layout
@@ -62,15 +69,17 @@ Future courses are planned around game creation, physical computing, debugging/d
 ```text
 course/
   no/                    Norwegian student lessons
+  en/                    English edition (in progress)
 exercises/
   no/                    Norwegian practice and challenges
 examples/                runnable Python examples
 teacher-guide/           notes for teachers and parents
   solutions/             lesson-specific adult guidance
-docs/                    installation, progression and terminology
-tools/                   repository validation tools
+printable/               print-friendly classroom companions
+docs/                    installation, progression, accessibility and qualification
+tools/                   repository validation and offline tools
 tests/                   automated checks
-.github/workflows/       CI
+.github/workflows/       CI and Pages deployment
 ```
 
 ## Quick start
@@ -89,9 +98,13 @@ See [installation guidance](docs/INSTALL.md) for classroom setup. Turtle example
 
 **M0 — Foundation: PASS**
 
-Course 1 is now in M1, focused on completeness, consistency, adult guidance and the English course skeleton.
+**M1 — Python Explorer complete: PASS**
 
-See [MILESTONES.md](MILESTONES.md) for the roadmap and [M0 qualification](docs/M0-QUALIFICATION.md) for the foundation qualification record.
+**M2 — Classroom Quality: pending hands-on Turtle/Tk qualification**
+
+M2 repository work, CI and GitHub Pages deployment are complete. The milestone deliberately remains open until the documented Q1–Q6 Turtle/Tk workflow has passed on a real graphical desktop environment.
+
+See [MILESTONES.md](MILESTONES.md), the [M2 readiness report](docs/M2-READINESS.md), and the [M2 qualification report](docs/M2-QUALIFICATION.md).
 
 ## Licensing
 
