@@ -78,7 +78,8 @@ def main() -> int:
     if len(solution_no) != 4 or len(solution_en) != 4:
         print(f"Language parity: FAIL — solution groups NO={len(solution_no)} EN={len(solution_en)}")
         return 1
-    print("Language parity structure: PASS — lessons, exercises, printables, student checklists, support docs and teacher resources exist in both Norwegian and English.")\n    print("Note: structural CI does not replace human pedagogical/language review.")
+    print("Language parity structure: PASS — lessons, exercises, printables, student checklists, support docs and teacher resources exist in both Norwegian and English.")
+    print("Note: structural CI does not replace human pedagogical/language review.")
     return 0
 
 if __name__ == "__main__":
