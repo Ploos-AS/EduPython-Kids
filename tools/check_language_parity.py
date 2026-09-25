@@ -44,7 +44,12 @@ def main() -> int:
         print("Language parity: FAIL")
         for error in errors: print(error)
         return 1
-    print("Language parity structure: PASS — 16 Norwegian and 16 English teaching lessons present.")
+    exercise_no = list((ROOT / "exercises" / "no").glob("[0-9][0-9]-*.md"))
+    exercise_en = list((ROOT / "exercises" / "en").glob("[0-9][0-9]-*.md"))
+    if len(exercise_no) != 16 or len(exercise_en) != 16:
+        print(f"Language parity: FAIL — exercises NO={len(exercise_no)} EN={len(exercise_en)}")
+        return 1
+    print("Language parity structure: PASS — 16 lessons and 16 exercises in both Norwegian and English.")
     return 0
 
 if __name__ == "__main__":
