@@ -14,7 +14,7 @@ The course starts with immediate, playful results and introduces programming con
 ## Teaching principles
 
 - zero programming prerequisites
-- Norwegian-first, with English material in progress
+- Norwegian is the primary authoring language; Norwegian and English are equally supported course editions
 - short lessons with visible results
 - learn by changing and experimenting with working programs
 - debugging is a normal and useful part of programming
@@ -39,7 +39,7 @@ The guiding principle is:
 
 ## Course 1 — Python Explorer
 
-Python Explorer currently contains 16 complete Norwegian lessons:
+Python Explorer contains 16 lessons in both Norwegian and English:
 
 1. Hello, Python! — `print()`
 2. My program remembers — variables
@@ -58,9 +58,7 @@ Python Explorer currently contains 16 complete Norwegian lessons:
 15. Turtle project — Robot Monster
 16. Final independent project
 
-Start with the [Norwegian course index](course/no/README.md). Extra practice is indexed in [Norwegian exercises](exercises/no/README.md).
-
-The Norwegian edition is currently the canonical complete teaching edition. An English 16-lesson structure exists, but the full English teaching material is still in progress and should not yet be treated as 1:1 equivalent.
+Start with the [Norwegian course index](course/no/README.md) or the [English course index](course/en/README.md). Norwegian is the primary authoring language, while both Norwegian and English are first-class supported editions. See [language parity policy](docs/LANGUAGE-PARITY.md).
 
 Future courses are planned around game creation, physical computing, debugging/data exploration, and independent projects.
 
