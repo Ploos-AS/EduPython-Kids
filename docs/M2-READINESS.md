@@ -1,6 +1,6 @@
 # M2 Classroom Quality — readiness
 
-**Repository-side status:** READY  
+**Repository-side status:** READY / CI GREEN  
 **Overall M2 status:** NOT YET QUALIFIED  
 **Updated:** 2026-09-25
 
@@ -48,7 +48,7 @@ At least one actual graphical desktop environment must be recorded. The report m
 
 ## Latest repository evidence
 
-CI run `36186696660` for commit `5010d31f06b759d135918eb2957d804654f968ee` completed successfully.
+CI run `36188983839` for commit `2e8501b44062ece14ba02267e333e07f4ef5ae41` completed successfully.
 
 That run includes bilingual offline-bundle verification, language-parity checks, M2 readiness checks and the accurately named headless Turtle-helper syntax check.
 
