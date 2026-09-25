@@ -20,12 +20,12 @@ dist/
 
 The archive contains:
 
-- Norwegian Python Explorer lessons
-- English course skeleton
-- exercises
+- complete Norwegian Python Explorer lessons
+- complete English Python Explorer lessons
+- Norwegian and English exercises
 - runnable examples
-- teacher/parent material
-- printable worksheets
+- Norwegian and English teacher/parent material
+- Norwegian and English printable worksheets
 - installation and supporting documentation
 - licensing and contribution information
 - a plain-text `START-HERE.txt`
