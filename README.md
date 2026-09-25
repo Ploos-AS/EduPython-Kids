@@ -67,13 +67,18 @@ Future courses are planned around game creation, physical computing, debugging/d
 ```text
 course/
   no/                    Norwegian student lessons
-  en/                    English edition (in progress)
+  en/                    English first-class student lessons
 exercises/
   no/                    Norwegian practice and challenges
+  en/                    English practice and challenges
 examples/                runnable Python examples
-teacher-guide/           notes for teachers and parents
-  solutions/             lesson-specific adult guidance
-printable/               print-friendly classroom companions
+teacher-guide/           Norwegian/default teacher and parent guidance
+  solutions/             Norwegian lesson-specific adult guidance
+  en/                    English teacher and parent guidance
+    solutions/           English lesson-specific adult guidance
+printable/
+  no/                    Norwegian print-friendly companions
+  en/                    English print-friendly companions
 docs/                    installation, progression, accessibility and qualification
 tools/                   repository validation and offline tools
 tests/                   automated checks
@@ -90,7 +95,7 @@ python examples/talk.py
 python examples/dice.py
 ```
 
-See [installation guidance](docs/INSTALL.md) for classroom setup. Turtle examples require a Python installation with Tk support.
+See [installation guidance](docs/INSTALL.md) for classroom setup. Norwegian setup guidance is also available in `docs/no/INSTALL.md`. Turtle examples require a Python installation with Tk support.
 
 ## Status
 
@@ -100,7 +105,7 @@ See [installation guidance](docs/INSTALL.md) for classroom setup. Turtle example
 
 **M2 — Classroom Quality: pending hands-on Turtle/Tk qualification**
 
-M2 repository work, CI and GitHub Pages deployment are complete. The milestone deliberately remains open until the documented Q1–Q6 Turtle/Tk workflow has passed on a real graphical desktop environment.
+M2 repository work, CI and GitHub Pages deployment are complete. Course 1 Norwegian/English language parity is qualified. The milestone deliberately remains open until the documented Q1–Q6 Turtle/Tk workflow has passed on a real graphical desktop environment.
 
 See [MILESTONES.md](MILESTONES.md), the [M2 readiness report](docs/M2-READINESS.md), and the [M2 qualification report](docs/M2-QUALIFICATION.md).
 
