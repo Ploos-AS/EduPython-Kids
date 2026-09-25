@@ -49,7 +49,15 @@ def main() -> int:
     if len(exercise_no) != 16 or len(exercise_en) != 16:
         print(f"Language parity: FAIL — exercises NO={len(exercise_no)} EN={len(exercise_en)}")
         return 1
-    print("Language parity structure: PASS — 16 lessons and 16 exercises in both Norwegian and English.")
+    printable_no = list((ROOT / "printable" / "no").glob("*.md"))
+    printable_en = list((ROOT / "printable" / "en").glob("*.md"))
+    if len(printable_no) != 4 or len(printable_en) != 4:
+        print(f"Language parity: FAIL — printable sheets NO={len(printable_no)} EN={len(printable_en)}")
+        return 1
+    if not (EN / "STUDENT-CHECKLIST.md").is_file() or not (NO / "ELEV-SJEKKLISTE.md").is_file():
+        print("Language parity: FAIL — student checklist missing in one language")
+        return 1
+    print("Language parity structure: PASS — lessons, exercises, printable sheets and student checklist exist in both Norwegian and English.")
     return 0
 
 if __name__ == "__main__":
