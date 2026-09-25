@@ -53,12 +53,15 @@ def build() -> Path:
         """EduPython Kids — Offline Bundle
 
 Start here:
-  Student (Norwegian): course/no/README.md
-  English skeleton:    course/en/README.md
-  Exercises:           exercises/no/README.md
-  Teacher/parent:      teacher-guide/README.md
+  Course (Norwegian):  course/no/README.md
+  Course (English):    course/en/README.md
+  Exercises (NO):      exercises/no/README.md
+  Exercises (EN):      exercises/en/README.md
+  Teacher/parent (NO): teacher-guide/README.md
+  Teacher/parent (EN): teacher-guide/en/README.md
   Printable sheets:    printable/README.md
-  Installation:        docs/INSTALL.md
+  Installation (NO):   docs/no/INSTALL.md
+  Installation (EN):   docs/INSTALL.md
 
 Python Explorer is designed to work without accounts or cloud services.
 Python itself must already be installed on the computer.
