@@ -11,35 +11,25 @@ Start by making something work. Change it. Predict what will happen. Run it agai
 
 ## Start here
 
-### 🇳🇴 Elev
+### 🇳🇴 Norsk
 
-Start med [Python Explorer på norsk](course/no/README.md).
+**Elev:** Start med [Python Explorer på norsk](course/no/README.md). Kurset har 16 leksjoner fra første `print()` til et selvstendig sluttprosjekt. Bruk også [øvelsene](exercises/no/README.md) og [elevsjekklisten](course/no/ELEV-SJEKKLISTE.md).
 
-Kurset har 16 leksjoner fra første `print()` til et selvstendig sluttprosjekt.
-
-Du kan også bruke [øvelsene](exercises/no/README.md) og [elevsjekklisten](course/no/ELEV-SJEKKLISTE.md).
-
-### 👩‍🏫 Lærer eller forelder
-
-Start med [lærerveiledningen](teacher-guide/README.md).
-
-Der finner du:
-
-- [klasseromssjekkliste](teacher-guide/CHECKLIST.md)
-- [30/45/60-minutters pacing](teacher-guide/PACING.md)
-- [løsnings- og støttenotater](teacher-guide/solutions/README.md)
-- [prosjektrubrikk](teacher-guide/PROJECT-RUBRIC.md)
-- [tilgjengelighetsveiledning](docs/ACCESSIBILITY.md)
-
-### 🖨 Utskrift og offline
-
-Bruk [utskriftsarkene](printable/README.md) sammen med de kanoniske leksjonene.
-
-Se [offline-guiden](docs/OFFLINE.md) for undervisning uten GitHub eller permanent internettilgang.
+**Lærer eller forelder:** Start med [lærer- og foreldreguiden](teacher-guide/README.md). Se også [pacing](teacher-guide/PACING.md), [løsningsnotater](teacher-guide/solutions/README.md), [prosjektrubrikk](teacher-guide/PROJECT-RUBRIC.md) og [tilgjengelighet](docs/no/ACCESSIBILITY.md).
 
 ### 🇬🇧 English
 
-The [English Python Explorer skeleton](course/en/README.md) mirrors the 16-lesson Norwegian course. The Norwegian edition remains the canonical complete teaching edition during the current translation work.
+**Student:** Start with [Python Explorer in English](course/en/README.md). It is a complete 16-lesson first-class course edition. Use the [English exercises](exercises/en/README.md) and [student checklist](course/en/STUDENT-CHECKLIST.md) too.
+
+**Teacher or parent:** Start with the [English teacher/parent guide](teacher-guide/en/README.md). See also [pacing](teacher-guide/en/PACING.md), [solution notes](teacher-guide/en/solutions/README.md), [project rubric](teacher-guide/en/PROJECT-RUBRIC.md) and [accessibility guidance](docs/en/ACCESSIBILITY.md).
+
+Norwegian is the primary authoring language. Norwegian and English are equal first-class supported editions; see the [language parity policy](docs/LANGUAGE-PARITY.md).
+
+## 🖨 Print and offline
+
+Use the [Norwegian and English printable sheets](printable/README.md) with the canonical lessons.
+
+For offline teaching, see the [English offline guide](docs/OFFLINE.md) or [Norwegian offline guide](docs/no/OFFLINE.md). The generated offline bundle contains both course editions and supporting material.
 
 ## Course path
 
@@ -52,9 +42,15 @@ The [English Python Explorer skeleton](course/en/README.md) mirrors the 16-lesso
 
 ## What you need
 
-Python 3.11 or newer is recommended. See the [installation guide](docs/INSTALL.md).
+Python 3.11 or newer is recommended. See the [English installation guide](docs/INSTALL.md) or [Norwegian installation guide](docs/no/INSTALL.md).
 
-The core course requires no student account, cloud service or proprietary learning platform. Once Python and the material are installed, the course can be used offline.
+The core course requires no student account, cloud service or proprietary learning platform. Once Python and the material are installed, the course can be used offline. Turtle lessons require local Tk/Turtle support.
+
+## Project status
+
+M0 Foundation and M1 Python Explorer are qualified. Course 1 Norwegian/English language parity is qualified with continuous human review.
+
+M2 Classroom Quality is complete on the repository and Pages side but remains deliberately open until the documented Turtle/Tk Q1–Q6 procedure passes on a real graphical desktop environment.
 
 ## Open course
 
