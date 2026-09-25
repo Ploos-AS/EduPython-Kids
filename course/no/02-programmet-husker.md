@@ -1,8 +1,10 @@
-# 2 — Programmet husker
+# 02 – Programmet husker
 
 ## 🎯 Oppdrag
 
-Få programmet til å huske navnet ditt.
+Få programmet til å huske navnet på en figur.
+
+## 💻 Kode
 
 ```python
 navn = "Ada"
@@ -10,7 +12,7 @@ navn = "Ada"
 print("Hei", navn)
 ```
 
-Bytt `Ada` med navnet ditt og kjør programmet.
+Bytt `Ada` med et navn du velger og kjør programmet.
 
 ## 🧠 Hva skjedde?
 
@@ -22,23 +24,23 @@ Du kan tenke på en variabel som en liten boks med en merkelapp:
 navn  ->  "Ada"
 ```
 
-Når Python ser `navn`, kan den bruke det som ligger i boksen.
+Når Python ser `navn`, kan programmet bruke verdien som ligger der.
 
 ## 🔧 Endre
 
-Lag flere bokser:
+Lag flere variabler:
 
 ```python
 navn = "Ada"
 alder = 10
 favoritt = "pizza"
 
-print("Jeg heter", navn)
-print("Jeg er", alder, "år")
-print("Jeg liker", favoritt)
+print("Figuren heter", navn)
+print("Figuren er", alder, "år")
+print("Figuren liker", favoritt)
 ```
 
-Endre verdiene så programmet beskriver deg.
+Endre verdiene og lag din egen figur.
 
 ## 🤔 Tenk
 
@@ -54,11 +56,11 @@ print(poeng)
 
 Prøv det.
 
-En variabel kan få en ny verdi. Programmet husker den nyeste verdien.
+En variabel kan få en ny verdi. Programmet bruker den nyeste verdien.
 
 ## ⭐ Utfordring
 
-Lag et lite spillerkort med minst fire variabler:
+Lag et lite spillerkort med minst fire variabler, for eksempel:
 
 - spillerens navn
 - alder
@@ -67,7 +69,9 @@ Lag et lite spillerkort med minst fire variabler:
 
 Skriv alt ut med `print()`.
 
-## 🐛 Bug-jakt
+Se [ekstra øvelser](../../exercises/no/02-programmet-husker.md) når du vil prøve mer.
+
+## 🐞 Bug-jakt
 
 Hva er galt her?
 
