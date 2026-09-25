@@ -18,15 +18,19 @@ Qualified 2026-09-25. See [M0 qualification report](docs/M0-QUALIFICATION.md).
 
 ## M1 — Python Explorer complete
 
-The foundation grew to 16 Norwegian lessons during M0. M1 therefore focuses on completeness, consistency and teaching quality rather than merely reaching a lesson count.
+The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completeness, consistency and teaching quality.
 
 - [x] Complete the initial Norwegian lesson sequence
-- [ ] Add exercises and challenge variants for every lesson
-- [ ] Add solution notes for adults
+- [x] Add exercises and challenge variants for every lesson
+- [x] Add solution notes for adults
 - [x] Add Turtle graphics progression
 - [x] Add final project path
-- [ ] Review all lessons for consistent vocabulary and difficulty
+- [x] Add project conversation rubric
+- [x] Establish consistent vocabulary and style guidance
+- [x] Add exercise and solution indexes
+- [ ] Complete whole-course consistency review
 - [ ] Add English course skeleton
+- [ ] Qualify M1
 
 ## M2 — Classroom quality
 
