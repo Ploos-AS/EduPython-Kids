@@ -1,34 +1,47 @@
 # 03 – Talk to the computer
 
 ## 🎯 Mission
-
-Make a program ask a question and use the answer.
+Make a program that asks a question and uses the answer.
 
 ## 💻 Code
-
 ```python
-name = input("What should the character be called? ")
-print("Hello", name + "!")
+name = input("What should I call your character? ")
+print("Hello", name)
 ```
 
-`input()` waits for an answer. Here the answer is stored in `name`.
+Use a nickname or fictional character. You do not need to enter your real name or other personal information.
+
+## ▶ Run
+Run the program, type an answer and press Enter.
+
+The answer from `input()` is stored in the variable `name`.
 
 ## 🔧 Change
+Ask another question:
 
-Ask about a favourite animal, place or imaginary superpower.
+```python
+animal = input("Favourite fantasy animal? ")
+print("You chose", animal)
+```
+
+Try different fictional answers.
 
 ## 🤔 Think
+Where is the answer stored before `print()` uses it? What changes if you change only the question text?
 
-Where does the answer from `input()` go?
+## 🐞 Bug hunt
+Try removing one quotation mark from the question. Run the program and inspect the error message. Put the quotation mark back and test again.
 
 ## ⭐ Challenge
+Make a three-question interview for a fictional game character. Ask for things such as a hero name, favourite colour and special power, then print a short introduction.
 
-Ask three questions and create a short introduction.
-
-Fictional information is enough. You never need real personal information for this exercise.
+[Extra exercises](../../exercises/en/03-input.md)
 
 ## 🧠 What you learned
-
-- `input()` lets a program wait for an answer.
+- `input()` asks for text.
 - The answer can be stored in a variable.
-- The program can use that value later.
+- The program can use that answer later.
+- Fictional data is enough for learning.
+
+## Next mission
+Next you will turn suitable input into numbers and make a mini calculator.
