@@ -30,11 +30,15 @@ Prøv `-` og `*` i stedet for `+`.
 
 ## 🤔 Tenk
 
-Hva skjer hvis du skriver et ord når programmet ber om et tall? Feilmeldingen er et spor, ikke en katastrofe.
+Hva tror du skjer hvis du skriver et ord når programmet ber om et tall?
+
+Prøv hvis du vil. Feilmeldingen er et spor som forteller at `int()` ikke kunne lage et heltall av teksten.
 
 ## ⭐ Utfordring
 
 Lag en kalkulator som skriver både summen, differansen og produktet av to tall.
+
+Se [ekstra øvelser](../../exercises/no/04-tall-og-kalkulator.md) når du vil prøve mer.
 
 ## 🐞 Bug-jakt
 
@@ -45,3 +49,10 @@ a = input("Tall 1: ")
 b = input("Tall 2: ")
 print(a + b)
 ```
+
+## 🧠 Det du lærte
+
+- Python kan regne med tall.
+- `input()` gir tekst.
+- `int()` kan gjøre tekst som `"12"` om til heltallet `12`.
+- Feilmeldinger kan hjelpe deg å finne ut hva programmet ikke forstod.
