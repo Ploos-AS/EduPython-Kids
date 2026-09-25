@@ -35,6 +35,9 @@ jobs:
       - name: Check Markdown links
         run: python tools/check_links.py
 
+      - name: Check language parity
+        run: python tools/check_language_parity.py
+
       - name: Check M2 repository readiness
         run: python tools/check_m2_readiness.py
 
