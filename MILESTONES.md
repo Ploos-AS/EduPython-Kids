@@ -16,7 +16,9 @@ Qualified 2026-09-25. See [M0 qualification report](docs/M0-QUALIFICATION.md).
 - [x] Document licensing split
 - [x] Qualify on Python 3.11, 3.12 and 3.13
 
-## M1 — Python Explorer complete
+## M1 — Python Explorer complete — PASS
+
+Qualified 2026-09-25. See [M1 qualification report](docs/M1-QUALIFICATION.md).
 
 The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completeness, consistency and teaching quality.
 
@@ -30,7 +32,7 @@ The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completenes
 - [x] Add exercise and solution indexes
 - [x] Complete whole-course consistency review
 - [x] Add English course skeleton
-- [ ] Qualify M1
+- [x] Qualify M1
 
 ## M2 — Classroom quality
 
