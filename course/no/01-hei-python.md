@@ -1,10 +1,10 @@
-# 1 — Hei, Python!
+# 01 – Hei, Python!
 
 ## 🎯 Oppdrag
 
-Få datamaskinen til å si noe du har bestemt.
+Få datamaskinen til å skrive noe du har bestemt.
 
-Skriv dette i en fil som heter `hei.py`:
+## 💻 Kode
 
 ```python
 print("Hei!")
@@ -13,7 +13,7 @@ print("Jeg programmerer i Python!")
 
 ## ▶ Kjør
 
-Kjør programmet:
+Lagre programmet som `hei.py` og kjør det:
 
 ```bash
 python hei.py
@@ -23,7 +23,7 @@ Du har nettopp laget et program.
 
 ## 🔧 Endre
 
-Bytt ut teksten med noe du vil at maskinen skal si.
+Bytt ut teksten med noe du vil at programmet skal skrive.
 
 Prøv for eksempel:
 
@@ -39,17 +39,21 @@ Hva tror du skjer hvis du har tre `print()`-linjer?
 
 Prøv før du leser videre.
 
-Hver `print()` skriver noe ut på skjermen. Med tre linjer får du tre utskrifter.
+Hver `print()` skriver noe på skjermen. Med tre linjer får du tre utskrifter.
 
 ## ⭐ Utfordring
 
-Lag et program som skriver:
+Lag et program som skriver tre ting om en oppdiktet figur, for eksempel:
 
-1. navnet ditt
-2. noe du liker
-3. noe morsomt
+1. navnet
+2. noe figuren liker
+3. noe morsomt figuren sier
 
-## 🐛 Bug-jakt
+Du kan også bruke informasjon om deg selv hvis du vil.
+
+Se [ekstra øvelser](../../exercises/no/01-hei-python.md) når du vil prøve mer.
+
+## 🐞 Bug-jakt
 
 Denne koden virker ikke:
 
