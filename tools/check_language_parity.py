@@ -62,7 +62,12 @@ def main() -> int:
         if not (teacher_en / name).is_file():
             print(f"Language parity: FAIL — missing English teacher resource: {name}")
             return 1
-    print("Language parity structure: PASS — core student and teacher resources exist in both Norwegian and English.")
+    solution_no = list((ROOT / "teacher-guide" / "solutions").glob("[0-9][0-9]-[0-9][0-9].md"))
+    solution_en = list((teacher_en / "solutions").glob("[0-9][0-9]-[0-9][0-9].md"))
+    if len(solution_no) != 4 or len(solution_en) != 4:
+        print(f"Language parity: FAIL — solution groups NO={len(solution_no)} EN={len(solution_en)}")
+        return 1
+    print("Language parity structure: PASS — core student and teacher resources exist in both Norwegian and English, including 4+4 solution groups.")
     return 0
 
 if __name__ == "__main__":
