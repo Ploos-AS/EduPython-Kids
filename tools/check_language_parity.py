@@ -57,7 +57,18 @@ def main() -> int:
     if not (EN / "STUDENT-CHECKLIST.md").is_file() or not (NO / "ELEV-SJEKKLISTE.md").is_file():
         print("Language parity: FAIL — student checklist missing in one language")
         return 1
-    docs_required = (\n        "docs/INSTALL.md", "docs/no/INSTALL.md",\n        "docs/PROGRESSION.md", "docs/no/PROGRESSION.md",\n        "docs/OFFLINE.md", "docs/no/OFFLINE.md",\n        "docs/ACCESSIBILITY.md", "docs/en/ACCESSIBILITY.md", "docs/no/ACCESSIBILITY.md",\n        "docs/VOCABULARY.md", "docs/en/VOCABULARY.md",\n    )\n    for name in docs_required:\n        if not (ROOT / name).is_file():\n            print(f"Language parity: FAIL — missing bilingual learner/support document: {name}")\n            return 1\n    teacher_en = ROOT / "teacher-guide" / "en"
+    docs_required = (
+        "docs/INSTALL.md", "docs/no/INSTALL.md",
+        "docs/PROGRESSION.md", "docs/no/PROGRESSION.md",
+        "docs/OFFLINE.md", "docs/no/OFFLINE.md",
+        "docs/ACCESSIBILITY.md", "docs/en/ACCESSIBILITY.md", "docs/no/ACCESSIBILITY.md",
+        "docs/VOCABULARY.md", "docs/en/VOCABULARY.md",
+    )
+    for name in docs_required:
+        if not (ROOT / name).is_file():
+            print(f"Language parity: FAIL — missing bilingual learner/support document: {name}")
+            return 1
+    teacher_en = ROOT / "teacher-guide" / "en"
     for name in ("README.md", "CHECKLIST.md", "PACING.md", "PROJECT-RUBRIC.md", "solutions/README.md"):
         if not (teacher_en / name).is_file():
             print(f"Language parity: FAIL — missing English teacher resource: {name}")
