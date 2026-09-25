@@ -21,20 +21,13 @@ The CI helper `tools/check_m2_readiness.py` verifies that these required reposit
 
 ## External gate A — GitHub Pages
 
-**Status: BLOCKED ON REPOSITORY SETTING**
+**Status: PASS**
 
-The Pages source and workflow exist, but GitHub Pages must be enabled for the repository with **GitHub Actions** selected as the deployment source.
+GitHub Pages build and deployment both passed in Actions run `36181518889` for commit `c7edd80f025113d0ac2d661f77fe0ca849812246`.
 
-After enablement:
+The build successfully completed Pages setup, Jekyll build and artifact upload. The deploy job also completed successfully.
 
-1. run or trigger the Pages workflow
-2. verify build PASS
-3. verify deploy PASS
-4. open the published site
-5. verify the home page and several lesson links
-6. record the deployed URL and workflow run in the M2 qualification report
-
-Do not mark this gate PASS based only on the workflow file existing.
+The final M2 qualification report should retain this workflow run as deployment evidence.
 
 ## External gate B — Turtle/Tk
 
