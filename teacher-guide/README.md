@@ -58,3 +58,8 @@ Hvis barnet står fast, prøv denne rekkefølgen:
 En vanlig Python 3-installasjon er nok for de første leksjonene. Senere Turtle-leksjoner krever Tk-støtte.
 
 Kurset skal også kunne brukes offline.
+
+
+## Classroom pacing
+
+Use [PACING.md](PACING.md) to adapt Python Explorer to 30, 45 or 60 minute sessions. The guide also suggests multi-session pacing for Monster Battle, Turtle and the final project.
