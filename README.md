@@ -6,13 +6,13 @@ EduPython Kids is a beginner-friendly Python course for children around 9–12 y
 
 The course starts with immediate, playful results and introduces programming concepts gradually through experiments, small challenges, graphics, and games.
 
-## M0 goals
+## Teaching principles
 
 - zero programming prerequisites
-- Norwegian-first course material, with English material planned alongside it
+- Norwegian-first, with English material planned
 - short lessons with visible results
 - learn by changing and experimenting with working programs
-- debugging treated as a normal and useful part of programming
+- debugging is a normal and useful part of programming
 - no proprietary learning platform required
 - usable offline on Linux, Windows, macOS, and Raspberry Pi
 - open educational material and open source examples
@@ -32,9 +32,9 @@ The guiding principle is:
 
 > Make something fun first. Explain why it works afterwards.
 
-## Course roadmap
+## Course 1 — Python Explorer
 
-### Course 1 — Python Explorer
+Python Explorer currently contains 16 Norwegian lessons:
 
 1. Hello, Python! — `print()`
 2. My program remembers — variables
@@ -42,12 +42,18 @@ The guiding principle is:
 4. Numbers and a mini calculator
 5. Make choices — `if`
 6. Randomness — dice and chance
-7. Repeat things — `for`
-8. Keep going — `while`
-9. Make your own commands — functions
-10. Collections — lists
-11. Draw with Turtle
-12. Final project — make a small game
+7. Repeat a known number of times — `for`
+8. First guessing game
+9. Keep going — `while`
+10. Guessing game with multiple attempts
+11. Make your own commands — functions
+12. Project — Monster Battle
+13. Collections — lists
+14. Draw with Turtle
+15. Turtle project — Robot Monster
+16. Final independent project
+
+Start with the [Norwegian course index](course/no/README.md). Extra practice is indexed in [Norwegian exercises](exercises/no/README.md).
 
 Future courses are planned around game creation, physical computing, debugging/data exploration, and independent projects.
 
@@ -55,11 +61,16 @@ Future courses are planned around game creation, physical computing, debugging/d
 
 ```text
 course/
-  no/              Norwegian student lessons
-examples/          runnable Python examples
-teacher-guide/     notes for teachers and parents
-tests/             simple automated checks
-.github/workflows/ CI
+  no/                    Norwegian student lessons
+exercises/
+  no/                    Norwegian practice and challenges
+examples/                runnable Python examples
+teacher-guide/           notes for teachers and parents
+  solutions/             lesson-specific adult guidance
+docs/                    installation, progression and terminology
+tools/                   repository validation tools
+tests/                   automated checks
+.github/workflows/       CI
 ```
 
 ## Quick start
@@ -72,13 +83,15 @@ python examples/talk.py
 python examples/dice.py
 ```
 
-Turtle examples require a Python installation with Tk support.
+See [installation guidance](docs/INSTALL.md) for classroom setup. Turtle examples require a Python installation with Tk support.
 
-## M0 status
+## Status
 
-M0 establishes the project structure, teaching principles, first lessons, runnable examples, teacher guidance, and baseline CI.
+**M0 — Foundation: PASS**
 
-See [MILESTONES.md](MILESTONES.md) for the project roadmap.
+Course 1 is now in M1, focused on completeness, consistency, adult guidance and the English course skeleton.
+
+See [MILESTONES.md](MILESTONES.md) for the roadmap and [M0 qualification](docs/M0-QUALIFICATION.md) for the foundation qualification record.
 
 ## Licensing
 
