@@ -19,13 +19,13 @@ M2 improves Python Explorer for real classroom use. Repository-side work, biling
 
 ## Automated evidence
 
-CI run `36186696660` for commit `5010d31f06b759d135918eb2957d804654f968ee` completed successfully on the current M2 repository architecture.
+CI run `36188983839` for commit `2e8501b44062ece14ba02267e333e07f4ef5ae41` completed successfully on the current M2 repository architecture.
 
 CI validates Python source, Markdown links, structural language parity, M2 repository readiness, offline-bundle contents and tests across Python 3.11, 3.12 and 3.13.
 
 ## GitHub Pages evidence
 
-Pages run `36186696779` for commit `5010d31f06b759d135918eb2957d804654f968ee` completed successfully.
+Pages run `36188983873` for commit `2e8501b44062ece14ba02267e333e07f4ef5ae41` completed successfully.
 
 ## Language parity evidence
 
