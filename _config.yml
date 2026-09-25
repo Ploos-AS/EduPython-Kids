@@ -1,0 +1,8 @@
+title: EduPython Kids
+description: Learn programming by making things.
+theme: minima
+markdown: kramdown
+exclude:
+  - tests
+  - tools
+  - dist
