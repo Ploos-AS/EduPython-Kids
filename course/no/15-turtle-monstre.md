@@ -4,9 +4,9 @@
 
 Tegn ditt eget robotmonster av enkle former.
 
-Du trenger ikke tegne perfekt. Målet er å bruke kode som et tegneverktøy.
+Du trenger ikke tegne perfekt. Målet er å bruke kode som et tegneverktøy og dele en større idé opp i mindre deler.
 
-## 🧱 Bygg med funksjoner
+## 💻 Start med én byggestein
 
 ```python
 import turtle
@@ -23,9 +23,11 @@ firkant(100)
 turtle.done()
 ```
 
-## 🔧 Nye deler
+Funksjonen `firkant()` er én byggestein. Nå kan du lage flere.
 
-Lag funksjoner for minst tre deler:
+## 🧱 Bygg med funksjoner
+
+Lag funksjoner for minst tre deler, for eksempel:
 
 - kropp
 - øye
@@ -33,16 +35,50 @@ Lag funksjoner for minst tre deler:
 - fot
 - munn
 
-Flytt pennen med `penup()`, `goto(x, y)` og `pendown()`.
+Flytt pennen mellom delene med `penup()`, `goto(x, y)` og `pendown()`.
+
+Test én funksjon om gangen før du setter sammen hele monsteret.
+
+## 🔧 Endre
+
+Gjør én funksjon fleksibel med en parameter, for eksempel:
+
+```python
+def oye(storrelse):
+    ...
+```
+
+Prøv to forskjellige verdier.
 
 ## 🤔 Tenk
 
 Hvorfor er funksjoner nyttige når roboten skal ha to like øyne eller flere bein?
 
+Hva kan du gjenbruke hvis du vil tegne monster nummer to?
+
 ## ⭐ Utfordring
 
 Lag et helt eget monster. Gi det et navn og skriv navnet med `penn.write()`.
 
+Se [ekstra øvelser](../../exercises/no/15-turtle-monstre.md) når du vil prøve mer.
+
 ## 🌟 Ekstra
 
-Lag to monstre på samme skjerm. Kan du gjøre dem forskjellige ved å sende størrelse eller andre verdier inn i funksjonene?
+Lag to monstre på samme skjerm. Gjør dem forskjellige ved å sende størrelse eller andre verdier inn i funksjonene.
+
+## 🐞 Bug-jakt
+
+Hvis hele tegningen blir vanskelig å feilsøke, kommenter midlertidig bort funksjonskall og test én kroppsdel alene.
+
+Spør:
+
+- Tegner funksjonen riktig form?
+- Starter pennen på riktig sted?
+- Er pennen oppe eller nede når den flyttes?
+
+## 🧠 Det du lærte
+
+- Et større problem kan deles i mindre funksjoner.
+- Samme funksjon kan gjenbrukes.
+- Parametere kan lage variasjoner av samme byggestein.
+- Det er enklere å finne feil når du tester små deler hver for seg.
