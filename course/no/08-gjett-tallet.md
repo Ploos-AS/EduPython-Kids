@@ -2,9 +2,9 @@
 
 ## 🎯 Oppdrag
 
-Nå kombinerer vi det du har lært og lager et ekte lite spill.
+Nå kombinerer vi det du har lært og lager et lite spill.
 
-Datamaskinen velger et hemmelig tall fra 1 til 10. Du skal prøve å gjette det.
+Programmet velger et hemmelig tall fra 1 til 10. Du skal prøve å gjette det.
 
 ## 💻 Første versjon
 
@@ -21,10 +21,11 @@ else:
     print("Tallet var", hemmelig)
 ```
 
-Her bruker vi allerede fire ting du kjenner:
+Her bruker vi allerede flere ting du kjenner:
 
 - variabler
 - `input()`
+- `int()`
 - tilfeldighet
 - `if`
 
@@ -39,17 +40,21 @@ else:
     print("For høyt!")
 ```
 
-`elif` betyr omtrent «ellers, hvis ...».
+`elif` betyr omtrent «ellers, hvis ...». Bare én av disse tre veiene blir valgt.
 
 ## 🤔 Tenk
 
-Hvordan kunne vi gitt spilleren flere forsøk? Det kommer vi tilbake til når vi lærer `while`.
+Hva tror du vi trenger for å la spilleren gjette igjen og igjen helt til svaret er riktig?
+
+Vi har ikke lært det verktøyet ennå. I neste leksjon møter du `while`.
 
 ## ⭐ Utfordring
 
 Endre området til 1–20. Lag din egen melding når spilleren vinner.
 
 Ekstra: Gi spilleren poeng hvis svaret er riktig.
+
+Se [ekstra øvelser](../../exercises/no/08-gjett-tallet.md) når du vil prøve mer.
 
 ## 🐞 Bug-jakt
 
@@ -60,4 +65,11 @@ gjett = hemmelig
 gjett == hemmelig
 ```
 
-Den første lagrer en verdi. Den andre spør om verdiene er like.
+Den første gir `gjett` en verdi. Den andre er en betingelse som spør om verdiene er like.
+
+## 🧠 Det du lærte
+
+- Flere tidligere Python-verktøy kan kombineres til et spill.
+- `elif` gir en ekstra betingelse mellom `if` og `else`.
+- `<` og `>` kan sammenligne tall.
+- Noen problemer gjør at vi trenger et nytt programmeringsverktøy.
