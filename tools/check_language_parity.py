@@ -57,7 +57,12 @@ def main() -> int:
     if not (EN / "STUDENT-CHECKLIST.md").is_file() or not (NO / "ELEV-SJEKKLISTE.md").is_file():
         print("Language parity: FAIL — student checklist missing in one language")
         return 1
-    print("Language parity structure: PASS — lessons, exercises, printable sheets and student checklist exist in both Norwegian and English.")
+    teacher_en = ROOT / "teacher-guide" / "en"
+    for name in ("README.md", "CHECKLIST.md", "PACING.md", "PROJECT-RUBRIC.md", "solutions/README.md"):
+        if not (teacher_en / name).is_file():
+            print(f"Language parity: FAIL — missing English teacher resource: {name}")
+            return 1
+    print("Language parity structure: PASS — core student and teacher resources exist in both Norwegian and English.")
     return 0
 
 if __name__ == "__main__":
