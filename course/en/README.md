@@ -1,10 +1,10 @@
-# Python Explorer — English course skeleton
+# Python Explorer — English
 
-**Status: M1 skeleton**
+**Status: first-class supported course edition**
 
-This directory mirrors the 16-lesson Norwegian Python Explorer course. The English material should preserve the same learning goals, progression, privacy principles and hands-on teaching model.
+Norwegian is the primary authoring language for EduPython Kids. Norwegian and English are equally supported course editions. Both editions should provide the same learning goals, progression, safety/privacy principles and hands-on teaching model.
 
-The Norwegian course is currently the canonical teaching content while the English edition is developed.
+English text should be natural English rather than a mechanical sentence-by-sentence translation. Pedagogical and functional parity matters more than identical wording.
 
 ## Lessons
 
@@ -15,37 +15,26 @@ The Norwegian course is currently the canonical teaching content while the Engli
 5. [The program chooses](05-if.md) — `if`, `else`, conditions
 6. [Randomness and dice](06-randomness.md) — `random`
 7. [Repeat with for](07-for-loops.md) — `for`
-8. [Mini-game: Guess the number](08-guess-number.md) — combine earlier concepts
+8. [Mini-game: Guess the number](08-guess-number.md)
 9. [Keep going with while](09-while.md) — `while`
-10. [Guess with multiple attempts](10-guess-again.md) — loop-driven game state
-11. [Functions](11-functions.md) — functions, parameters, `return`
-12. [Project: Monster Battle](12-monster-battle.md) — first larger text game
-13. [Lists](13-lists.md) — lists, indexes, `.append()`
-14. [Draw with Turtle](14-turtle.md) — graphics
-15. [Turtle challenge: Robot Monster](15-turtle-monster.md) — decomposition and reuse
-16. [Final project](16-final-project.md) — independent project
+10. [Guess with multiple attempts](10-guess-again.md)
+11. [Functions](11-functions.md) — parameters and `return`
+12. [Project: Monster Battle](12-monster-battle.md)
+13. [Lists](13-lists.md)
+14. [Draw with Turtle](14-turtle.md)
+15. [Turtle challenge: Robot Monster](15-turtle-monster.md)
+16. [Final project](16-final-project.md)
 
 ## Lesson rhythm
 
-The English edition follows the same recurring structure:
+The recurring structure is Mission → Code → Run → Change → Think → Challenge, with Bug hunt and What you learned where appropriate.
 
-- 🎯 Mission
-- 💻 Code
-- ▶ Run
-- 🔧 Change
-- 🤔 Think
-- ⭐ Challenge
-- 🐞 Bug hunt
-- 🧠 What you learned
+## Language parity policy
 
-Not every lesson needs every section, but the learning rhythm should remain recognisable.
-
-## Translation principles
-
-- Translate meaning and teaching intent, not Norwegian sentences mechanically.
-- Keep code identifiers beginner-friendly and consistent within each lesson.
-- Do not require real names, addresses, schools, passwords or other personal information.
-- Prefer fictional characters and data when personal information is unnecessary.
-- Keep examples runnable with standard Python wherever possible.
-- Preserve the progression and difficulty of the Norwegian course.
-- Treat errors as useful information, not failure.
+- Norwegian is the primary authoring language, not a higher-tier edition.
+- Norwegian and English are first-class supported languages.
+- Every student lesson must exist in both editions.
+- Learning goals and difficulty must remain equivalent.
+- Safety and privacy guidance must remain equivalent.
+- Examples may use natural language-specific names and wording.
+- New course work should include both languages before the relevant milestone is considered complete.
