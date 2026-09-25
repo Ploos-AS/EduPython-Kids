@@ -20,6 +20,8 @@ REQUIRED = (
     "_config.yml",
     ".github/workflows/pages.yml",
     "docs/TURTLE-QUALIFICATION.md",
+    "docs/TURTLE-TEST-RESULT.md",
+    "tools/turtle_smoke.py",
 )
 
 
