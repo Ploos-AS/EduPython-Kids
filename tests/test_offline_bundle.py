@@ -38,6 +38,7 @@ def test_offline_bundle_builds_and_contains_core_material():
         "EduPython-Kids-offline/teacher-guide/en/solutions/13-16.md",
         "EduPython-Kids-offline/printable/README.md",
         "EduPython-Kids-offline/examples/hello.py",
+        "EduPython-Kids-offline/tools/turtle_smoke.py",
         "EduPython-Kids-offline/docs/INSTALL.md",
         "EduPython-Kids-offline/docs/no/INSTALL.md",
         "EduPython-Kids-offline/docs/en/ACCESSIBILITY.md",
