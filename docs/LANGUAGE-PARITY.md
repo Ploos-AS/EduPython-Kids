@@ -22,7 +22,7 @@ Examples and names may be localised naturally.
 
 A new student-facing course milestone is not language-complete until the required Norwegian and English material exists.
 
-Supporting material should also move toward parity. Teacher material, exercises, printable sheets and navigation may be translated in staged batches, but missing translations must remain visible roadmap work rather than being silently treated as complete.
+Supporting material should also move toward parity. Teacher material, exercises, printable sheets and navigation are first-class bilingual resources. Learner-facing setup, progression and offline-use guidance should be available in both languages. Internal qualification reports and CI/readiness evidence may remain language-neutral project documentation rather than being duplicated solely for translation.
 
 ## Validation
 
