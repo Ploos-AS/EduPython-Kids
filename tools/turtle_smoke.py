@@ -16,6 +16,7 @@ def main() -> int:
     print(f"Python: {sys.version.split()[0]}")
     print(f"Tk: {tk.TkVersion}")
     print("Opening Turtle window...")
+    print("Visual checklist: square visible; text visible; window responds; close by clicking.")
 
     try:
         screen = turtle.Screen()
@@ -32,7 +33,8 @@ def main() -> int:
         pen.write("EduPython Kids Turtle OK", align="center")
 
         print("PASS candidate: Tk window opened and drawing commands completed.")
-        print("Visually confirm the square and text, then close the window.")
+        print("Visually confirm: [1] square [2] text [3] responsive window.")
+        print("Then click the window to close it normally.")
         screen.exitonclick()
     except Exception as exc:
         print(f"FAIL: graphical Turtle test failed: {exc}")
