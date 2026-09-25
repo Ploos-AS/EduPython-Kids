@@ -4,7 +4,7 @@
 
 Få en liten skilpadde til å tegne en firkant på skjermen.
 
-Turtle følger med Python på mange vanlige installasjoner. Den trenger et grafisk miljø med Tk-støtte.
+Turtle følger med mange Python-installasjoner og trenger et grafisk miljø med Tk-støtte.
 
 ## 💻 Første tegning
 
@@ -20,9 +20,17 @@ for side in range(4):
 turtle.done()
 ```
 
+Her bruker du allerede en løkke. I stedet for fire nesten like kodeblokker gjentar programmet de samme to bevegelsene fire ganger.
+
 ## 🔧 Endre
 
-Hva skjer hvis du endrer 100? Hva skjer hvis du endrer 90?
+Hva tror du skjer hvis du endrer 100?
+
+Prøv.
+
+Hva tror du skjer hvis du endrer 90?
+
+Prøv igjen.
 
 ## 🔺 Tegn en trekant
 
@@ -44,8 +52,32 @@ Kan du bruke ideen til å tegne en femkant?
 
 ## ⭐ Utfordring
 
-Lag en funksjon `polygon(sider, lengde)` som kan tegne flere forskjellige figurer.
+Lag en funksjon:
+
+```python
+def polygon(sider, lengde):
+    ...
+```
+
+Den skal kunne tegne flere forskjellige mangekanter.
+
+Se [ekstra øvelser](../../exercises/no/14-turtle.md) når du vil prøve mer.
 
 ## 🎨 Gjør den din
 
-Prøv forskjellige pennstørrelser og farger. Eksperimenter er en del av oppgaven.
+Eksperimenter med pennstørrelse, farger, lengder og vinkler.
+
+Det finnes ikke én riktig tegning.
+
+## 🐞 Bug-jakt
+
+Hvis Turtle-vinduet ikke åpner i det hele tatt, kan problemet være Python/Tk-miljøet og ikke koden din. Be en voksen sjekke [installasjonsguiden](../../docs/INSTALL.md).
+
+Hvis vinduet åpner, men figuren ser rar ut, test én verdi om gangen.
+
+## 🧠 Det du lærte
+
+- Kode kan styre grafikk og bevegelse.
+- Løkker er nyttige når en figur har gjentatte sider.
+- Vinkler endrer retningen pennen beveger seg i.
+- Funksjoner kan gjøre tegnekode gjenbrukbar.
