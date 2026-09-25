@@ -29,7 +29,7 @@ jobs:
       - name: Compile Python
         run: python -m compileall -q examples tools
 
-      - name: Check Turtle helper imports headlessly
+      - name: Check Turtle helper syntax
         run: python -c "import ast, pathlib; ast.parse(pathlib.Path('tools/turtle_smoke.py').read_text(encoding='utf-8'))"
 
       - name: Check Markdown links
