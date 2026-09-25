@@ -34,3 +34,8 @@ Ask these questions in order:
 ## Course completion
 
 A learner does not need to memorize syntax. Course 1 is successful when the learner can experiment, debug with some guidance and create a small program of their own.
+
+
+## Accessibility before class
+
+Review [the accessibility guidance](../docs/ACCESSIBILITY.md), especially when a learner uses assistive technology, needs larger text, has difficulty typing, or when Turtle/Tk will be used.
