@@ -6,6 +6,8 @@ Do not mark it PASS from CI or from source inspection.
 
 ## Environment
 
+Record the exact environment. Do not use a CI runner as the environment for this evidence.
+
 - Date:
 - Machine:
 - Operating system:
@@ -17,6 +19,8 @@ Do not mark it PASS from CI or from source inspection.
 - Offline bundle used: yes / no
 
 ## Results
+
+Run all six checks on the same environment unless a separate environment is explicitly recorded.
 
 | Check | Result | Notes |
 | --- | --- | --- |
