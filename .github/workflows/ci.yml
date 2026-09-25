@@ -32,5 +32,8 @@ jobs:
       - name: Check Markdown links
         run: python tools/check_links.py
 
+      - name: Check M2 repository readiness
+        run: python tools/check_m2_readiness.py
+
       - name: Run tests
         run: pytest -q
