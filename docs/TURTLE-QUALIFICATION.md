@@ -10,6 +10,8 @@ For a quick graphical pre-check, run `python tools/turtle_smoke.py`. A human mus
 
 ## Test environments
 
+**Minimum M2 evidence:** one real graphical desktop environment with Q1–Q6 PASS. Broader OS coverage is recommended when those platforms are intended for classroom use, but missing an optional platform must not silently be treated as PASS.
+
 Record each real environment tested.
 
 | Date | OS | Python | Editor/terminal | Tk/Turtle | Result | Notes |
@@ -67,7 +69,7 @@ ____________________________________________________________
 
 ## Q3 — Lesson 14 workflow
 
-Follow the core activity in `course/no/14-turtle.md`.
+Follow the core activity in `course/no/14-turtle.md` or `course/en/14-turtle.md`.
 
 Check that the learner can:
 
@@ -86,7 +88,7 @@ Check that the learner can:
 
 ## Q4 — Lesson 15 workflow
 
-Follow the core activity in `course/no/15-turtle-monstre.md`.
+Follow the core activity in `course/no/15-turtle-monstre.md` or `course/en/15-turtle-monster.md`.
 
 Check that:
 
