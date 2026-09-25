@@ -17,6 +17,7 @@ INCLUDE_DIRS = (
     "teacher-guide",
     "printable",
     "docs",
+    "tools",
 )
 
 INCLUDE_FILES = (
