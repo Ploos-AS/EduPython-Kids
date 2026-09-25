@@ -42,6 +42,7 @@ The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completenes
 - [x] Offline bundle
 - [x] Student progress checklist
 - [x] GitHub Pages course site
+- [x] Norwegian/English Course 1 language parity — see [qualification](docs/LANGUAGE-PARITY-QUALIFICATION.md)
 - [ ] Hands-on Turtle/Tk classroom qualification
 
 ## M3 — Python Game Maker
