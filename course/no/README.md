@@ -9,7 +9,7 @@ Hver leksjon har et oppdrag, litt kode du kan kjøre, ting du kan endre, spørsm
 ## Leksjoner
 
 1. [Hei, Python!](01-hei-python.md)
-2. [Programmet husker](02-variabler.md)
+2. [Programmet husker](02-programmet-husker.md)
 3. [Snakk med datamaskinen](03-input.md)
 4. [Tall og mini-kalkulator](04-tall-og-kalkulator.md)
 5. [Programmet velger med if](05-if.md)
@@ -25,8 +25,12 @@ Hver leksjon har et oppdrag, litt kode du kan kjøre, ting du kan endre, spørsm
 15. [Turtle-utfordring: Robotmonster](15-turtle-monstre.md)
 16. [Sluttprosjekt](16-sluttprosjekt.md)
 
+## Min sjekkliste
+
+Bruk [elevsjekklisten](ELEV-SJEKKLISTE.md) underveis. Du trenger ikke kunne alt utenat.
+
 ## Husk
 
-Du trenger ikke huske all Python-kode utenat. Programmerere slår opp ting, tester ideer og retter feil hele tiden.
+Programmerere slår opp ting, tester ideer og retter feil hele tiden.
 
 Målet er at du etter kurset kan få en idé til et lite program og finne ut hvordan du kan bygge det.
