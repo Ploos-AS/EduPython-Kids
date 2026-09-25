@@ -6,28 +6,34 @@ Nå skal du lage et lite Python-prosjekt du selv bestemmer over.
 
 Du kan velge én av disse idéene eller finne på din egen:
 
-- et tekst-eventyr
+- et teksteventyr
 - en quiz
 - et gjette- eller terningspill
 - en Turtle-tegning
 - et enkelt monsterspill
-- en tilfeldig historie-generator
+- en tilfeldig historiegenerator
 
-## 📝 1. Planlegg
+## 📝 1 – Planlegg
 
 Svar med én setning på hver:
 
 1. Hva skal programmet gjøre?
 2. Hva skal spilleren eller brukeren kunne gjøre?
-3. Hvilke Python-verktøy trenger du?
+3. Hvilke Python-verktøy tror du at du trenger?
 
-## 🧩 2. Lag en liten versjon først
+Det er lov å endre planen senere.
 
-Ikke prøv å lage alt med én gang. Få én liten ting til å virke.
+## 🧩 2 – Lag den minste versjonen først
 
-Deretter kan du legge til én forbedring om gangen.
+Ikke prøv å lage alt med én gang.
 
-## 🐞 3. Test
+Spør:
+
+**Hva er den minste versjonen som viser ideen min?**
+
+Få den til å virke først. Legg deretter til én forbedring om gangen.
+
+## 🧪 3 – Test og forbedre
 
 Test programmet minst tre ganger.
 
@@ -36,14 +42,17 @@ Når noe ikke virker:
 1. Les feilmeldingen.
 2. Finn linjen Python peker på.
 3. Se etter parenteser, kolon, anførselstegn og innrykk.
-4. Endre én ting.
-5. Kjør igjen.
+4. Skriv eventuelt ut en variabel for å se verdien.
+5. Endre én ting.
+6. Kjør igjen.
 
-## ⭐ 4. Gjør prosjektet ditt
+Noter gjerne hva du prøvde, hva som skjedde og hva du endret.
 
-Velg minst tre:
+## ⭐ 4 – Gjør prosjektet ditt
 
-- eget navn og tema
+Velg minst tre eller finn på egne forbedringer:
+
+- eget tema
 - flere valg
 - poeng
 - tilfeldighet
@@ -52,18 +61,49 @@ Velg minst tre:
 - en liste
 - grafikk
 - en hemmelig overraskelse
+- noe ingen oppgave ba deg om
 
-## 🎤 5. Vis det fram
+Se [prosjektarket](../../exercises/no/16-sluttprosjekt.md) hvis du vil ha hjelp til å planlegge og føre testlogg.
 
-Fortell noen:
+## 🎤 5 – Vis det fram
 
-- hva programmet gjør
+Demonstrer prosjektet for noen.
+
+Fortell:
+
+- hva du ville lage
+- hvordan programmet brukes
 - hvilken del du er mest fornøyd med
-- en bug du fant
-- én ting du vil lage senere
+- en bug eller overraskelse du fant
+- noe du endret etter testing
+- hva du ville laget videre med mer tid
+
+## 🤔 Tenk tilbake
+
+Kan du finne et sted i prosjektet hvor du brukte noe fra en tidligere leksjon?
+
+Kan du forklare hvorfor koden virker?
+
+Det er viktigere enn å huske all syntaks utenat.
 
 ## 🏁 Ferdig?
 
-Du trenger ikke ha laget et perfekt program.
+Prosjektet trenger ikke være perfekt.
 
-Hvis du kan få en idé, skrive kode, teste, finne feil og forbedre programmet, har du jobbet som en programmerer.
+Hvis du har fått en idé, laget en liten versjon, testet, funnet problemer og forbedret programmet, har du gjennomført hele arbeidsmåten vi har øvd på.
+
+## 🧠 Det du har øvd på gjennom Python Explorer
+
+Du har blant annet møtt:
+
+- `print()`, `input()` og variabler
+- tall og enkel regning
+- betingelser med `if`, `elif` og `else`
+- tilfeldighet
+- `for`- og `while`-løkker
+- funksjoner, parametere og `return`
+- lister
+- Turtle-grafikk
+- testing og debugging
+
+Du trenger ikke kunne alt utenat. Nå vet du nok til å fortsette å lage, undersøke og lære.
