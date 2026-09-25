@@ -28,8 +28,8 @@ The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completenes
 - [x] Add project conversation rubric
 - [x] Establish consistent vocabulary and style guidance
 - [x] Add exercise and solution indexes
-- [ ] Complete whole-course consistency review
-- [ ] Add English course skeleton
+- [x] Complete whole-course consistency review
+- [x] Add English course skeleton
 - [ ] Qualify M1
 
 ## M2 — Classroom quality
