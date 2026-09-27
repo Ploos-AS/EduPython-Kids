@@ -2,6 +2,15 @@ title: EduPython Kids
 description: Learn programming by making things.
 theme: minima
 markdown: kramdown
+
+# Keep Minima's top navigation intentionally small. Without header_pages,
+# Minima auto-discovers every page with a title; with a bilingual 16-lesson
+# course that turns the header into a long wrapped link list in Firefox and
+# other browsers.
+header_pages:
+  - index.md
+  - MILESTONES.md
+
 exclude:
   - tests
   - tools
