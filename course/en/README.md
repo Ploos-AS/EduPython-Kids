@@ -25,6 +25,23 @@ English text should be natural English rather than a mechanical sentence-by-sent
 15. [Turtle challenge: Robot Monster](15-turtle-monster.md)
 16. [Final project](16-final-project.md)
 
+## Python Game Maker — M3
+
+After Python Explorer, continue with a 10-mission game course:
+
+1. [Move!](m3-01-move.md)
+2. [Stay on screen!](m3-02-stay-on-screen.md)
+3. [Catch the star!](m3-03-catch-the-star.md)
+4. [Score!](m3-04-score.md)
+5. [Watch out!](m3-05-watch-out.md)
+6. [Three lives!](m3-06-three-lives.md)
+7. [Make it yours!](m3-07-make-it-yours.md)
+8. [Sound and celebration!](m3-08-sound-and-celebration.md)
+9. [Build a mini-game!](m3-09-mini-game.md)
+10. [My game!](m3-10-my-game.md)
+
+The goal is not difficult game-programming theory. The goal is: **I made my own game!**
+
 ## Lesson rhythm
 
 The recurring structure is Mission → Code → Run → Change → Think → Challenge, with Bug hunt and What you learned where appropriate.
