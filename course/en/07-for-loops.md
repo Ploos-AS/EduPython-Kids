@@ -48,7 +48,7 @@ Make a program that rolls a die 10 times and counts how many sixes you get.
 
 ## 🐞 Bug hunt
 
-```python
+```python-bug
 for i in range(5):
 print(i)
 ```
