@@ -47,9 +47,23 @@ The foundation grew to 16 Norwegian lessons during M0. M1 focuses on completenes
 
 ## M3 — Python Game Maker
 
-- [ ] Small graphical games
-- [ ] Coordinates, sprites, collisions, score, sound
-- [ ] Multi-lesson capstone game
+Status: **content complete; qualification pending**
+
+- [x] Define a 10-year-old-first Game Maker teaching model
+- [x] Choose Turtle/Tk as the core graphical runtime
+- [x] Complete the 10-lesson Norwegian Game Maker course
+- [x] Complete the 10-lesson English Game Maker course
+- [x] Add movement, screen boundaries and keyboard control
+- [x] Add coordinates, targets and simple collision/distance checks
+- [x] Add score, monster, lives and game-over rules
+- [x] Add optional sound with visual feedback as the portable baseline
+- [x] Add a complete runnable mini-game reference
+- [x] Add the independent "My game" capstone
+- [x] Add Game Maker navigation in both languages
+- [x] Enforce M3 Norwegian/English structural parity in CI
+- [x] Compile runnable examples on Python 3.11, 3.12 and 3.13 in CI
+- [ ] Hands-on Turtle/Tk desktop qualification
+- [ ] Record M3 qualification against a tested commit
 
 ## Future
 
