@@ -68,7 +68,7 @@ Se [ekstra øvelser](../../exercises/no/11-funksjoner.md) når du vil prøve mer
 
 ## 🐞 Bug-jakt
 
-```python
+```python-bug
 def hils()
     print("Hei!")
 
