@@ -1,0 +1,26 @@
+pls:
+  specification: "0.1"
+  entry_level: 0
+  exit_level: 2
+  status: adopting
+
+resource:
+  title: "EduPython Kids"
+  type: course
+  language:
+    - no
+    - en
+  scope: "A beginner Python course for children around 9–12 years old, centered on making, experimenting, debugging, graphics, games and independent projects."
+  prerequisites: []
+  learning_outcomes:
+    - "Create and run small Python programs using variables, input, arithmetic, conditionals, loops, functions and lists."
+    - "Modify working programs, predict outcomes and explain what changed."
+    - "Use debugging as a normal part of programming."
+    - "Complete small graphics, game and independent programming projects."
+  review_paths:
+    - "course/**"
+    - "exercises/**"
+    - "examples/**"
+    - "teacher-guide/**"
+    - "printable/**"
+    - "docs/LANGUAGE-PARITY.md"
