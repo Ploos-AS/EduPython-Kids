@@ -2,17 +2,69 @@
 
 ## 🎯 Mission
 
-Each time the monster catches you, lose one life. The game ends when you reach zero.
+The monster caught you, but the game is not over yet.
+
+Keep your M3.5 game. Give the player **three lives** and make the game end at zero.
+
+## ❤️ Remember the lives
+
+Near `score = 0`, add:
 
 ```python
 lives = 3
 ```
 
-## ❤️ Show lives
+Create another text Turtle:
 
-Create a text Turtle and a `show_lives()` function, just like the scoreboard.
+```python
+life_board = turtle.Turtle()
+life_board.hideturtle()
+life_board.penup()
+life_board.goto(-250, 160)
+```
 
-## 💥 Lose a life
+Add:
+
+```python
+def show_lives():
+    life_board.clear()
+    life_board.write(
+        f"Lives: {lives}",
+        font=("Arial", 18, "normal")
+    )
+```
+
+Call `show_lives()` once when the game starts.
+
+## 💥 Lose one life
+
+Add:
+
+```python
+def caught_by_monster():
+    global lives
+
+    lives = lives - 1
+    show_lives()
+
+    player.goto(0, 0)
+    monster.goto(-200, -100)
+```
+
+Now replace the monster's print message with:
+
+```python
+if monster.distance(player) < 25:
+    caught_by_monster()
+```
+
+Get caught on purpose.
+
+**3 → 2 → 1 ...**
+
+## 🛑 GAME OVER
+
+Change `caught_by_monster()` so zero lives calls a new function:
 
 ```python
 def caught_by_monster():
@@ -28,7 +80,7 @@ def caught_by_monster():
         monster.goto(-200, -100)
 ```
 
-## 🛑 GAME OVER
+Add:
 
 ```python
 def game_over():
@@ -45,24 +97,51 @@ def game_over():
     )
 ```
 
-Add a `game_running` variable so the monster can stop after GAME OVER. At the top of its movement function, return if the game is no longer running.
+## ⚠️ Stop the monster too
+
+Near your other game variables, add:
+
+```python
+game_running = True
+```
+
+At the start of `move_monster()` add:
+
+```python
+if not game_running:
+    return
+```
+
+And inside `game_over()` add:
+
+```python
+global game_running
+game_running = False
+```
+
+That means: **if the game is over, stop here.**
 
 ## 🔧 Change
 
 Try five lives or only one. Which is more fun?
 
-## ⭐ Challenge
+## ⭐ Challenge — play again
 
-Make a `restart()` function and connect it to the R key. Restart is extra — closing and running the game again is fine too.
+Restart is extra. First make sure the normal game works all the way to GAME OVER.
+
+If you want a bigger challenge, make a `restart()` function that resets lives, score, positions, and `game_running`, then connect it to the R key.
+
+Closing the game and running it again is completely fine.
 
 ## 🐞 Bug hunt
 
-If you lose several lives at once, move the player and monster farther apart after a hit.
+If you lose several lives almost at once, make sure the player and monster move apart after a hit. If the monster continues after GAME OVER, check `game_running` and the test at the top of `move_monster()`.
 
 ## 🧠 What you learned
 
-- variables can remember lives as well as points
-- games can have rules for losing
+- variables can remember lives as well as score
+- games can have rules for hits and losing
 - a game can be running or finished
+- functions can collect everything that should happen after an event
 
 **Next mission:** Make the game yours! 🎨
