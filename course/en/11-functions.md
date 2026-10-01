@@ -66,7 +66,7 @@ Create a function `roll_die()` that returns a random number from 1 to 6.
 
 ## 🐞 Bug hunt
 
-```python
+```python-bug
 def greet()
     print("Hello!")
 
