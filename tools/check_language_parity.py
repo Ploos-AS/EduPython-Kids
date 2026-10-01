@@ -16,6 +16,19 @@ NO_FILES = {
     13: "13-lister.md", 14: "14-turtle.md", 15: "15-turtle-monstre.md",
     16: "16-sluttprosjekt.md",
 }
+M3_NO_FILES = {
+    1: "m3-01-flytt.md", 2: "m3-02-hold-deg-pa-skjermen.md",
+    3: "m3-03-fang-stjernen.md", 4: "m3-04-poeng.md", 5: "m3-05-monsteret.md",
+    6: "m3-06-tre-liv.md", 7: "m3-07-gjor-spillet-ditt.md",
+    8: "m3-08-lyd-og-jubel.md", 9: "m3-09-mini-spill.md", 10: "m3-10-mitt-spill.md",
+}
+M3_EN_FILES = {
+    1: "m3-01-move.md", 2: "m3-02-stay-on-screen.md",
+    3: "m3-03-catch-the-star.md", 4: "m3-04-score.md", 5: "m3-05-watch-out.md",
+    6: "m3-06-three-lives.md", 7: "m3-07-make-it-yours.md",
+    8: "m3-08-sound-and-celebration.md", 9: "m3-09-mini-game.md", 10: "m3-10-my-game.md",
+}
+
 EN_FILES = {
     1: "01-hello-python.md", 2: "02-variables.md", 3: "03-input.md",
     4: "04-numbers-calculator.md", 5: "05-if.md", 6: "06-randomness.md",
@@ -78,7 +91,7 @@ def main() -> int:
     if len(solution_no) != 4 or len(solution_en) != 4:
         print(f"Language parity: FAIL — solution groups NO={len(solution_no)} EN={len(solution_en)}")
         return 1
-    print("Language parity structure: PASS — lessons, exercises, printables, student checklists, support docs and teacher resources exist in both Norwegian and English.")
+    print("Language parity structure: PASS — Course 1 and M3 lessons, exercises, printables, student checklists, support docs and teacher resources exist in both Norwegian and English.")
     print("Note: structural CI does not replace human pedagogical/language review.")
     return 0
 
