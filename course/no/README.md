@@ -25,6 +25,23 @@ Hver leksjon har et oppdrag, litt kode du kan kjøre, ting du kan endre, spørsm
 15. [Turtle-utfordring: Robotmonster](15-turtle-monstre.md)
 16. [Sluttprosjekt](16-sluttprosjekt.md)
 
+## Python Game Maker — M3
+
+Når du er ferdig med Python Explorer, kan du fortsette med et helt lite spillkurs:
+
+1. [Flytt!](m3-01-flytt.md)
+2. [Hold deg på skjermen!](m3-02-hold-deg-pa-skjermen.md)
+3. [Fang stjernen!](m3-03-fang-stjernen.md)
+4. [Poeng!](m3-04-poeng.md)
+5. [Pass deg for monsteret!](m3-05-monsteret.md)
+6. [Tre liv!](m3-06-tre-liv.md)
+7. [Gjør spillet ditt!](m3-07-gjor-spillet-ditt.md)
+8. [Lyd og jubel!](m3-08-lyd-og-jubel.md)
+9. [Bygg et mini-spill!](m3-09-mini-spill.md)
+10. [Mitt spill!](m3-10-mitt-spill.md)
+
+Målet er ikke å lære vanskelig spillteori. Målet er å ende med: **Jeg lagde mitt eget spill!**
+
 ## Min sjekkliste
 
 Bruk [elevsjekklisten](ELEV-SJEKKLISTE.md) underveis. Du trenger ikke kunne alt utenat.
