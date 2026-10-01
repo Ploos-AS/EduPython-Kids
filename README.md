@@ -60,7 +60,17 @@ Python Explorer contains 16 lessons in both Norwegian and English:
 
 Start with the [Norwegian course index](course/no/README.md) or the [English course index](course/en/README.md). Norwegian is the primary authoring language, while both Norwegian and English are first-class supported editions. See [language parity policy](docs/LANGUAGE-PARITY.md).
 
-Future courses are planned around game creation, physical computing, debugging/data exploration, and independent projects.
+## Course 2 — Python Game Maker (M3)
+
+After Python Explorer, learners can continue with 10 short Turtle game missions. Movement comes first, then screen edges, targets, score, a chasing monster, lives, feedback, a complete mini-game and finally the learner's own game.
+
+The goal is simple: **I made my own game!**
+
+Game Maker content is complete in both Norwegian and English, but M3 qualification remains pending until the documented Turtle/Tk desktop checks pass on a real graphical environment.
+
+Start from the **Python Game Maker — M3** section in the [Norwegian course index](course/no/README.md) or [English course index](course/en/README.md). See the [M3 qualification runbook](docs/M3-QUALIFICATION.md).
+
+Future courses are planned around physical computing, debugging/data exploration, and independent projects.
 
 ## Repository layout
 
@@ -104,6 +114,8 @@ See [installation guidance](docs/INSTALL.md) for classroom setup. Norwegian setu
 **M1 — Python Explorer complete: PASS**
 
 **M2 — Classroom Quality: pending hands-on Turtle/Tk qualification**
+
+**M3 — Python Game Maker: content complete; qualification pending**
 
 M2 repository work, CI and GitHub Pages deployment are complete. Course 1 Norwegian/English language parity is qualified. The milestone deliberately remains open until the documented Q1–Q6 Turtle/Tk workflow has passed on a real graphical desktop environment.
 
