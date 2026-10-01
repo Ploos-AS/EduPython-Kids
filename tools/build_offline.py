@@ -54,8 +54,9 @@ def build() -> Path:
         """EduPython Kids — Offline Bundle
 
 Start here:
-  Course (Norwegian):  course/no/README.md
-  Course (English):    course/en/README.md
+  Python Explorer + Game Maker (NO): course/no/README.md
+  Python Explorer + Game Maker (EN): course/en/README.md
+  Game Maker reference game:         examples/m3-mini-game.py
   Exercises (NO):      exercises/no/README.md
   Exercises (EN):      exercises/en/README.md
   Teacher/parent (NO): teacher-guide/README.md
