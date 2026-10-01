@@ -49,7 +49,7 @@ Se [ekstra øvelser](../../exercises/no/06-tilfeldighet.md) når du vil prøve m
 
 ## 🐞 Bug-jakt
 
-```python
+```python-bug
 import random
 kast = random.randint(1, 6
 print(kast)
