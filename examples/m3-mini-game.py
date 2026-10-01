@@ -47,12 +47,12 @@ message.penup()
 
 def show_score():
     scoreboard.clear()
-    scoreboard.write(f"Poeng: {score}", align="center", font=("Arial", 18, "normal"))
+    scoreboard.write(f"Score / Poeng: {score}", align="center", font=("Arial", 18, "normal"))
 
 
 def show_lives():
     life_board.clear()
-    life_board.write(f"Liv: {lives}", font=("Arial", 18, "normal"))
+    life_board.write(f"Lives / Liv: {lives}", font=("Arial", 18, "normal"))
 
 
 def move_star():
