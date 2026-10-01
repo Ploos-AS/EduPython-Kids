@@ -39,7 +39,7 @@ Create a fictional character and print three things about them.
 
 What is wrong here?
 
-```python
+```python-bug
 print("Hello!)
 ```
 
