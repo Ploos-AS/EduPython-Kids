@@ -57,7 +57,7 @@ Se [ekstra øvelser](../../exercises/no/01-hei-python.md) når du vil prøve mer
 
 Denne koden virker ikke:
 
-```python
+```python-bug
 print("Hei!)
 ```
 
