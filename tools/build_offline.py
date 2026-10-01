@@ -64,7 +64,7 @@ Start here:
   Installation (NO):   docs/no/INSTALL.md
   Installation (EN):   docs/INSTALL.md
 
-Python Explorer is designed to work without accounts or cloud services.
+Python Explorer and Python Game Maker are designed to work without accounts or cloud services.
 Python itself must already be installed on the computer.
 
 For Turtle lessons, the local Python installation also needs graphical
