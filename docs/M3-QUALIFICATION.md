@@ -18,9 +18,12 @@ Record:
 - Python version
 - Tk version if known
 - editor or terminal used
+- course edition tested: Norwegian or English
 - exact Git commit tested
 
 Use the repository at that commit without uncommitted course fixes.
+
+Before the hands-on run, confirm CI is green for the tested commit and that the offline bundle builds and passes `tools/check_offline_bundle.py`. These are preflight checks only; they do not replace Q1–Q9.
 
 ## Q1 — Turtle/Tk opens
 
