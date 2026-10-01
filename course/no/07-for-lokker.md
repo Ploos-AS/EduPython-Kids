@@ -50,7 +50,7 @@ Se [ekstra øvelser](../../exercises/no/07-for-lokker.md) når du vil prøve mer
 
 ## 🐞 Bug-jakt
 
-```python
+```python-bug
 for i in range(5):
 print(i)
 ```
