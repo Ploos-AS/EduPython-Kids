@@ -35,6 +35,9 @@ jobs:
       - name: Check Markdown links
         run: python tools/check_links.py
 
+      - name: Check Python snippets in course Markdown
+        run: python tools/check_markdown_python.py
+
       - name: Check language parity
         run: python tools/check_language_parity.py
 
