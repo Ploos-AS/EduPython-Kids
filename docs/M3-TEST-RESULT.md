@@ -12,8 +12,16 @@ Copy or fill this form during a real Turtle/Tk desktop qualification.
 - Python version:
 - Tk version:
 - Editor/terminal:
+- Course edition tested: Norwegian / English
 - Tested commit:
 - Offline/no-internet test: yes / no
+
+## Preflight
+
+- CI green for tested commit: yes / no
+- Offline bundle built and validated: yes / no
+
+These checks confirm repository/distribution readiness. They do not replace the graphical tests below.
 
 ## Checks
 
