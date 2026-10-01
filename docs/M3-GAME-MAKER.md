@@ -24,7 +24,7 @@ Every lesson follows the familiar rhythm:
 - no game-engine architecture, classes, vectors or formal collision theory as prerequisites
 - Norwegian is authored first; English remains an equal supported edition
 
-## Proposed course path
+## Course path
 
 1. **Move!** — open a game window and move a character with the arrow keys.
 2. **Stay on screen!** — discover positions and screen edges by experimenting.
@@ -63,6 +63,14 @@ M3.0 is complete when:
 
 - [x] the 10-year-old-first teaching rules are documented
 - [x] the 10-lesson progression is agreed
-- [ ] the Turtle/Tk runtime choice is documented and tested on supported desktop environments
+- [x] the Turtle/Tk runtime choice is documented
+- [x] all 10 lessons exist in Norwegian and English
 - [x] lesson 1 has a runnable minimal prototype
-- [x] CI compiles the runnable examples without pretending that headless CI qualifies the graphical experience
+- [x] the complete shared mini-game reference is included
+- [x] CI validates runnable Python snippets and intentional bug-hunt snippets
+- [x] CI compiles runnable examples on the supported Python matrix without pretending that headless CI qualifies the graphical experience
+- [x] CI builds the offline ZIP and verifies all 20 M3 lesson files, the reference game and start links
+- [ ] Turtle/Tk Q1–Q9 passes on a real graphical desktop environment
+- [ ] the tested commit and environment are recorded in `M3-TEST-RESULT.md`
+
+The hands-on procedure is defined in [M3-QUALIFICATION.md](M3-QUALIFICATION.md). Until those final two checks pass, M3 remains **content complete; qualification pending**.
