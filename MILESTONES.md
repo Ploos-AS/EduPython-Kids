@@ -62,6 +62,8 @@ Status: **content complete; qualification pending**
 - [x] Add Game Maker navigation in both languages
 - [x] Enforce M3 Norwegian/English structural parity in CI
 - [x] Compile runnable examples on Python 3.11, 3.12 and 3.13 in CI
+- [x] Validate Python course snippets and intentional bug-hunt snippets in CI
+- [x] Build and verify the M3 offline bundle in CI
 - [ ] Hands-on Turtle/Tk desktop qualification
 - [ ] Record M3 qualification against a tested commit
 
