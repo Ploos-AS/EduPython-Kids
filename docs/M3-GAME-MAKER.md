@@ -37,6 +37,12 @@ Every lesson follows the familiar rhythm:
 9. **Build a mini-game** — combine movement, collecting, danger and score.
 10. **My game** — capstone: choose a theme, change rules, test it with another person, and explain one part of the code.
 
+## Runtime choice
+
+M3 core uses Python's standard `turtle` module on Tk. This continues directly from Python Explorer lessons 14–15, works offline, and avoids adding a package-install step before a child can make something move.
+
+Headless CI may compile and inspect the Python source, but it does **not** qualify the graphical experience. Real Turtle/Tk desktop testing remains required. Sound is optional; visual feedback is the portable baseline.
+
 ## Scope guard
 
 M3 introduces coordinates and collision through things the child can see:
@@ -55,8 +61,8 @@ Sound must be optional or have a silent fallback so the core course remains port
 
 M3.0 is complete when:
 
-- the 10-year-old-first teaching rules are documented
-- the 10-lesson progression is agreed
-- the graphical library/runtime choice is documented and tested on supported desktop environments
-- lesson 1 has a runnable minimal prototype
-- CI can test non-graphical logic without pretending that headless CI qualifies the graphical experience
+- [x] the 10-year-old-first teaching rules are documented
+- [x] the 10-lesson progression is agreed
+- [ ] the Turtle/Tk runtime choice is documented and tested on supported desktop environments
+- [x] lesson 1 has a runnable minimal prototype
+- [x] CI compiles the runnable examples without pretending that headless CI qualifies the graphical experience
