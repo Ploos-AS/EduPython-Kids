@@ -42,7 +42,7 @@ Se [ekstra øvelser](../../exercises/no/03-input.md) når du vil prøve mer.
 
 Hva mangler her?
 
-```python
+```python-bug
 navn = input("Hva skal figuren hete? "
 print("Hei", navn)
 ```
