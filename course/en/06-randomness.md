@@ -47,7 +47,7 @@ Extra challenge: print "Double!" when both dice show the same number.
 
 ## 🐞 Bug hunt
 
-```python
+```python-bug
 import random
 roll = random.randint(1, 6
 print(roll)
