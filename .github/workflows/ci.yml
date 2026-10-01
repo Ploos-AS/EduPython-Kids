@@ -44,5 +44,11 @@ jobs:
       - name: Check M2 repository readiness
         run: python tools/check_m2_readiness.py
 
+      - name: Build offline bundle
+        run: python tools/build_offline.py
+
+      - name: Check offline bundle
+        run: python tools/check_offline_bundle.py
+
       - name: Run tests
         run: pytest -q
